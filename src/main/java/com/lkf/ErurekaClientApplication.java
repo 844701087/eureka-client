@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 /**
+ * 启动成功之后访问:localhost:1111会发现该服务已经注册到服务中心
  * 通过@EnableDiscoveryClient注解实现让该应用注册为Eureak的客户端，以获得发现服务的能力
  * 	(1)向Eureka Server注册服务实例
  * 	(2)向Eureka Server续约
